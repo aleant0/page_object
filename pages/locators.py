@@ -16,3 +16,12 @@ class LoginPageLocators():
     REG_PASS = (By.CSS_SELECTOR, "#id_registration-password1")
     REG_PASSCONF = (By.CSS_SELECTOR, "#id_registration-password2")
     REG_BTN = (By.CSS_SELECTOR, '[name="registration_submit"]')
+
+
+class ProductPageLocators():
+    ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
+    ALERT_TITLE = (By.CSS_SELECTOR, '.alertinner>strong')
+    ALERT_PRICE = (By.CSS_SELECTOR, '.alertinner>p>strong ')
+    BOOK_TITLE = (By.CSS_SELECTOR, ".product_main>h1")
+    BOOK_PRICE = (By.CSS_SELECTOR, ".product_main>.price_color")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
